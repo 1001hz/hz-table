@@ -1,0 +1,26 @@
+.hz-table-data {
+
+  display: block;
+  padding: 10px 20px;
+  background-color: #eee;
+  color: #333;
+
+  &__col-name {
+    font-weight: bold;
+    color: #666;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .hz-table-data {
+    display: inline-block;
+    float: left;
+
+    &--col-3 {
+      width: 33.33333%;
+    }
+    &--col-4 {
+      width: 25%;
+    }
+  }
+}

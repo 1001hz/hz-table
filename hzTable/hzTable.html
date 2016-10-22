@@ -1,0 +1,9 @@
+<div class="hz-table">
+  <div class="hz-table__headings">
+    <div class="hz-table__heading"
+         ng-class="$ctrl.dynamicClass"
+         ng-repeat="heading in $ctrl.headings">{{ heading }}</div>
+  </div>
+
+  <div ng-transclude></div>
+</div>

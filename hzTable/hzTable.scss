@@ -1,0 +1,28 @@
+.hz-table {
+
+  &__heading {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .hz-table {
+    &__heading {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      float: left;
+
+      &--col-2 {
+        width: 50%;
+      }
+      &--col-3 {
+        width: 33.33333%;
+      }
+      &--col-4 {
+        width: 25%;
+      }
+    }
+  }
+}
